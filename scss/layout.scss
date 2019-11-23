@@ -1,5 +1,5 @@
 //variables
-$containerWidth: 1170px;
+$containerWidth: 1100px;
 $gap: 15px;
 $columnsCount: 12;
 $colWidth: 100%/$columnsCount;
@@ -21,9 +21,9 @@ $colWidth: 100%/$columnsCount;
     margin-left: -$gap;
     margin-right: -$gap;
 }
-.ba-row + .ba-row {
+/*.ba-row + .ba-row {
     margin-top: 1rem;
-}
+}*/
 [class^='ba-col'] {
     padding-left: $gap;
     padding-right: $gap;

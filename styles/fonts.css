@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'font6e02d29a68e4a53317ad9ffa8ddc79db';
+        
+        src:    url('https://nomail.com.ua/files/eot/6e02d29a68e4a53317ad9ffa8ddc79db.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/6e02d29a68e4a53317ad9ffa8ddc79db.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/6e02d29a68e4a53317ad9ffa8ddc79db.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'WCManoNegraBta';  src: local('WCManoNegraBta'), url('https://nomail.com.ua/files/woff/6e02d29a68e4a53317ad9ffa8ddc79db.woff') format('woff'); }
+    

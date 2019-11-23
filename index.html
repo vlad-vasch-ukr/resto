@@ -4,32 +4,285 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ba-starter</title>
+    <title>Resto</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Aleo:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/fonts.css">
 </head>
 <body>
     <header class="ba-header">
-        <div class="container">
-            <a href="" class="ba-logo"></a>
+        <div class="container ba-header__wrapper">
+            <a href="" class="ba-logo">
+                <img src="img/Logo.png" alt="logo">
+            </a>
             <nav>
                 <ul class="ba-menu">
-                    <li class="ba-menu__item"><a href="" class="ba-manu__link"></a></li>
-                    <li class="ba-menu__item"><a href="" class="ba-manu__link"></a></li>
-                    <li class="ba-menu__item"><a href="" class="ba-manu__link"></a></li>
-                    <li class="ba-menu__item"><a href="" class="ba-manu__link"></a></li>
+                    <li class="ba-menu__item"><a href="#" class="ba-menu__link">our story</a></li>
+                    <li class="ba-menu__item"><a href="#" class="ba-menu__link">menu</a></li>
+                    <li class="ba-menu__item"><a href="#" class="ba-menu__link">reservations</a></li>
+                    <li class="ba-menu__item"><a href="#" class="ba-menu__link">News</a></li>
+                    <li class="ba-menu__item"><a href="#" class="ba-menu__link">Rviews</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="ba-section">
-            <div class="container"></div>
+        <section class="ba-section ba-hero">
+            <div class="container">
+                <div class="ba-section-header">
+                    <h1 class="ba-hero__title">This Template Is Awesome</h1>
+                    <p class="ba-hero__desc">
+                        resto restaurant home page website template
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="ba-section ba-section-menu">
+            <div class="container">
+                <div class="ba-section-header ba-menu-header">
+                    <h2 class="ba-section__title">The Menu</h2>
+                </div>
+               <div class="ba-row menu-positions">
+                   <div class="ba-col-6 menu-position__wrapper">
+                        <div class="menu-position">
+                                <div class="menu-position__name">
+                                    <p>Voluptate cillum fugiat.</p>
+                                    <span>Cheese, tomato, mushrooms, onions.</span>
+                                </div>
+                                <span class="menu-position__line"></span>
+                                <div class="menu-position__price">$50</div>
+                            </div>
+                   </div>
+                   <div class="ba-col-6 menu-position__wrapper">
+                        <div class="menu-position">
+                                <div class="menu-position__name">
+                                    <p>Arcu pede enim justo.</p>
+                                    <span>Tuna, Sweetcorn, Cheese.</span>
+                                </div>
+                                <span class="menu-position__line"></span>
+                                <div class="menu-position__price">$45</div>
+                            </div>
+                   </div>
+                   <div class="ba-col-6 menu-position__wrapper">
+                        <div class="menu-position">
+                                <div class="menu-position__name">
+                                    <p>Metus varius laoreet.</p>
+                                    <span>Chicken, mozzarella cheese, onions.</span>
+                                </div>
+                                <span class="menu-position__line"></span>
+                                <div class="menu-position__price">$62</div>
+                            </div>
+                   </div>
+                   <div class="ba-col-6 menu-position__wrapper">
+                        <div class="menu-position">
+                                <div class="menu-position__name">
+                                    <p>Cras dapibussemper nisi.</p>
+                                    <span>Pineapple, Minced Beef, Cheese.</span>
+                                </div>
+                                <span class="menu-position__line"></span>
+                                <div class="menu-position__price">$32</div>
+                            </div>
+                   </div>
+                   <div class="ba-col-6 menu-position__wrapper">
+                        <div class="menu-position">
+                                <div class="menu-position__name">
+                                    <p>Donec sodales magna.</p>
+                                    <span>Tuna, Sweetcorn, Cheese.</span>
+                                </div>
+                                <span class="menu-position__line"></span>
+                                <div class="menu-position__price">$25</div>
+                            </div>
+                   </div>
+                   <div class="ba-col-6 menu-position__wrapper">
+                        <div class="menu-position">
+                                <div class="menu-position__name">
+                                    <p>Quam semper libero.</p>
+                                    <span>Cheese, tomato, mushrooms, onions.</span>
+                                </div>
+                                <span class="menu-position__line"></span>
+                                <div class="menu-position__price">$15</div>
+                            </div>
+                   </div>
+                   <div class="ba-col-6 menu-position__wrapper">
+                        <div class="menu-position">
+                                <div class="menu-position__name">
+                                    <p>Saugue velit cursus.</p>
+                                    <span>Pineapple, Minced Beef, Cheese.</span>
+                                </div>
+                                <span class="menu-position__line"></span>
+                                <div class="menu-position__price">$30</div>
+                            </div>
+                   </div>
+                   <div class="ba-col-6 menu-position__wrapper">
+                        <div class="menu-position">
+                                <div class="menu-position__name">
+                                    <p>Nam eget dui Etiam.</p>
+                                    <span>Chicken, mozzarella cheese, onions.</span>
+                                </div>
+                                <span class="menu-position__line"></span>
+                                <div class="menu-position__price">$35</div>
+                            </div>
+                   </div>
+               </div>
+               <button class="menu-button">load more<span></span></button>
+            </div>
+        </section>
+        <section class="ba-section ba-section-dishes">
+            <div class="container">
+                    <div class="ba-section-dishes-header">
+                            <h2 class="ba-section-dishes-header__title">Featured Dishes</h2>
+                            <div class="ba-section-dishes-header__swich">
+                                    <input type="radio" id="button1" name='foo'>
+                                    <input type="radio" id="button2" name='foo' checked>
+                                    <input type="radio" id="button3" name='foo'>
+                                    <input type="radio" id="button4" name='foo'>
+                                    <label id="hw1" for="button1"></label>
+                                    <label id="hw2" for="button2"></label>
+                                    <label id="hw3" for="button3"></label>
+                                    <label id="hw4" for="button4"></label>
+                            </div>
+                    </div>
+                    <div class="ba-row ba-row__wrapper">
+                        <div class="ba-col-3">
+                            <div class="ba-section-dishes-featured">
+                                <img class="ba-section-dishes__img" src="img/img_1.jpg" alt="#">
+                                <div class="ba-section-dishes__wrapper">
+                                    <h3 class="ba-section-dishes__title">Fugiat nulla sint</h3>
+                                    <div class="ba-section-dishes__price">$30</div>
+                                </div>
+                                <img src="img/rating_4.png" alt="rating">
+                            </div>
+                        </div>
+                        <div class="ba-col-3">
+                            <div class="ba-section-dishes-featured">
+                                <img class="ba-section-dishes__img" src="img/img_2.jpg" alt="#">
+                                <div class="ba-section-dishes__wrapper">
+                                    <h3 class="ba-section-dishes__title">Daute irure dolor</h3>
+                                    <div class="ba-section-dishes__price">$24</div>
+                                </div>
+                                <img src="img/rating_3.png" alt="rating">
+                            </div>
+                        </div>
+                        <div class="ba-col-3">
+                            <div class="ba-section-dishes-featured">
+                                <img class="ba-section-dishes__img" src="img/img_3.jpg" alt="#">
+                                <div class="ba-section-dishes__wrapper">
+                                    <h3 class="ba-section-dishes__title">Officia deserunt mollit</h3>
+                                    <div class="ba-section-dishes__price">$60</div>
+                                </div>
+                                <img src="img/rating_5.png" alt="rating">
+                            </div>
+                        </div>
+                        <div class="ba-col-3">
+                            <div class="ba-section-dishes-featured">
+                                <img class="ba-section-dishes__img" src="img/img_4.jpg" alt="#">
+                                <div class="ba-section-dishes__wrapper">
+                                    <h3 class="ba-section-dishes__title">Pim minim veniam</h3>
+                                    <div class="ba-section-dishes__price">$17</div>
+                                </div>
+                                <img src="img/rating_4.png" alt="rating">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="ba-section ba-section-gallery">
+            <div class="container">
+              <div class="ba-gallery-header">
+                <h2 class="ba-section-gallery__title">The Gallery</h2> 
+              </div>
+                <div class="ba-row ba-section-gallery-list">
+                  <div class="ba-col-4 ba-section-gallery__item">
+                      <div class="ba-section-gallery__picture">
+                        <a href="#" class="ba-section-gallery__link">
+                            <img src="img/dish_1.jpg" alt="dish" class="ba-section-gallery__img">
+                        </a>
+                      </div>
+                  </div>
+                  <div class="ba-col-8 ba-section-gallery__item">
+                      <div class="ba-row ba-section-gallery-list">
+                            <div class="ba-col-6 ba-section-gallery__item">
+                                    <div class="ba-section-gallery__picture">
+                                      <a href="#" class="ba-section-gallery__link">
+                                          <img src="img/dish_2.jpg" alt="dish" class="ba-section-gallery__img">
+                                      </a>
+                                    </div>
+                                </div>
+                                <div class="ba-col-6 ba-section-gallery__item">
+                                    <div class="ba-section-gallery__picture">
+                                      <a href="#" class="ba-section-gallery__link">
+                                          <img src="img/dish_3.jpg" alt="dish" class="ba-section-gallery__img">
+                                      </a>
+                                    </div>
+                                </div>
+                      </div>
+                      <div class="ba-row ba-section-gallery-list">
+                          <div class="ba-col-6 ba-section-gallery__item">
+                        <div class="ba-section-gallery__picture">
+                          <a href="#" class="ba-section-gallery__link">
+                              <img src="img/dish_4.jpg" alt="dish" class="ba-section-gallery__img">
+                          </a>
+                        </div>
+                    </div>
+                    <div class="ba-col-6 ba-section-gallery__item">
+                        <div class="ba-section-gallery__picture">
+                          <a href="#" class="ba-section-gallery__link">
+                              <img src="img/dish_5.jpg" alt="dish" class="ba-section-gallery__img">
+                          </a>
+                        </div>
+                    </div>
+                      </div>
+                  </div>
+                </div> 
+            </div>
         </section>
     </main>
     <footer class="ba-footer">
-        <div class="container"></div>
+        <div class="container">
+            <div class="ba-row">
+                <div class="ba-col-3">
+                    <div class="ba-footer-branch">
+                        <h3 class="ba-footer-branch__title">New York Restaurant</h3>
+                        <div class="ba-footer-branch__address">
+                            <p>3926 Anmoore Road</p>
+                            <p>New York, NY 10014</p>
+                        </div>
+                        <div class="ba-footer-branch__contact">718-749-1714</div>
+                    </div>
+                </div>
+                <div class="ba-col-3">
+                    <div class="ba-footer-branch">
+                        <h3 class="ba-footer-branch__title">France Restaurant</h3>
+                        <div class="ba-footer-branch__address">
+                            <p>68, rue  de la Couronne</p>
+                            <p>75002 PARIS</p>
+                        </div>
+                        <div class="ba-footer-branch__contact">02.94.23.69.56</div>
+                    </div>
+                </div>
+                <div class="ba-col-3">
+                    <div class="ba-footer-menu__wrapper">
+                        <ul class="ba-footer-menu">
+                            <li class="ba-footer-menu__item"><a href="#" class="ba-footer-menu__link">Blog</a></li>
+                            <li class="ba-footer-menu__item"><a href="#" class="ba-footer-menu__link">Careers</a></li>
+                            <li class="ba-footer-menu__item"><a href="#" class="ba-footer-menu__link">Privacy Policy</a></li>
+                            <li class="ba-footer-menu__item"><a href="#" class="ba-footer-menu__link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ba-col-3">
+                    <div class="ba-footer-rights">
+                        <a href="#" class="ba-footer-rights__link">
+                            <img src="img/footer_logo.png" alt="logo">
+                        </a>
+                        <p>&copy;All Rights Reserved 2014.</p>
+                        <p>Find  More at <a href="#" class="ba-footer-rights__link">Pixelhint.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
